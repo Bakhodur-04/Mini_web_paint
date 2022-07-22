@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+.body {
+	margin: 0 auto;
+}
+
+.container {
+	padding-top: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.palette_list, .sizePenList {
+  list-style:none;
+  margin:0;
+  padding: 0;
+}
+
+.sizePenList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.palette_item, .sizePen_item {
+  content: '';
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.palette_item {
+	height:50px;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.sizePen_item {
+	background-color: black;
+}
+
+.sizePen_item:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.palette, .sizePen {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.sizePen {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#red {
+  background-color:#F00;
+}
+
+#blue {
+  background-color:#00F;
+}
+
+#green {
+  background-color:#0F0;
+}
+
+#yellow {
+  background-color:#FF0;
+}
+
+#magenta {
+  background-color:#F0F;
+}
+#cyan {
+  background-color:#0FF;
+}
+
+#white {
+	background-color: white;
+}
+
+#orange {
+	background-color: orange;
+}
+
+#black {
+	background-color: black;
+}
+
+#grey {
+	background-color: grey;
+}
+
+.canvas {
+	border-color: black;
+	border: solid 5px;
+}
+
+.colorPicker_white {
+	border: 1px solid black;
+}
+
+#verySmall {
+	width: 10px;
+	height: 10px;
+}
+
+#small {
+	width: 20px;
+	height: 20px;
+}
+
+#medium {
+	width: 50px;
+	height: 50px;
+}
+
+#big {
+	width: 100px;
+	height: 100px;
+}
+
+#veryBig {
+	width: 160px;
+	height: 160px;
+}
